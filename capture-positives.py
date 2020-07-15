@@ -38,7 +38,7 @@ if __name__ == '__main__':
         # Grab the count from the last filename.
         count = int(files[-1][-7:-4])+1
     print 'Capturing positive training images.'
-    print 'Press button or type c (and press enter) to capture an image.'
+    print 'type l (and press enter) to capture an image.'
     print 'Press Ctrl-C to quit.'
     while True:
         # Check if button was pressed or 'c' was received, then capture image.

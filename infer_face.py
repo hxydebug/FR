@@ -21,7 +21,7 @@ if __name__ == '__main__':
     print 'Training data loaded!'
     # Initialize camer and box.
     camera = config.get_camera()
-    print 'Press button to lock (if unlocked), or unlock if the correct face is detected.'
+    print 'type l (and press enter) to test if the correct face is detected.'
     print 'Press Ctrl-C to quit.'
     while True:
         if is_letter_input('l'):
